@@ -1,0 +1,31 @@
+*{
+    font-family: "Merriweather", serif;
+}
+.head{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+}
+.navbar{
+    margin-top: 50px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    background-color: white;
+    width: 100%;
+}
+.navbar-nav{
+    margin-right: 30px;
+}
+.nav-item{
+    margin-right: 20px;
+    font-weight: 500;
+}
+#navItem:hover{
+    color: rgb(36, 91, 220);
+}
+/* carousel home */
+.carousel{
+     margin-top:5rem ; 
+}
