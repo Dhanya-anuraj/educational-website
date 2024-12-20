@@ -1,31 +1,91 @@
-*{
-    font-family: "Merriweather", serif;
+* {
+  font-family: "Merriweather", serif;
 }
-.head{
-    position: fixed;
+
+.head {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+}
+
+.navbar {
+  margin-top: 50px;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  background-color: white;
+  width: 100%;
+}
+
+.navbar-nav {
+  margin-right: 30px;
+}
+
+.nav-item {
+  margin-right: 20px;
+  font-weight: 500;
+}
+.carousel {
+  margin-top: 7rem;
+}
+
+.carousel-item img {
+  max-height: 450px;
+  object-fit: cover;
+}
+
+/* Adjust details section on smaller screens */
+.details-section h5 {
+  font-size: 1rem;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+/* Responsive footer */
+footer .row div {
+  margin-bottom: 1rem;
+}
+
+footer img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer .social-icons i {
+  margin-right: 1rem;
+}
+
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .carousel-item img {
+    max-height: 80vh;
+    object-fit: cover;
+  }
+
+  .testimonial-carousel .card {
     width: 100%;
-    top: 0;
-    z-index: 2;
+    margin-bottom: 1rem;
+  }
+
+  footer .row div {
+    text-align: center;
+  }
+
+  footer .social-icons {
+    justify-content: center;
+  }
 }
-.navbar{
-    margin-top: 50px;
-    position: fixed;
-    top: 0;
-    z-index: 2;
-    background-color: white;
-    width: 100%;
-}
-.navbar-nav{
-    margin-right: 30px;
-}
-.nav-item{
-    margin-right: 20px;
-    font-weight: 500;
-}
-#navItem:hover{
-    color: rgb(36, 91, 220);
-}
-/* carousel home */
-.carousel{
-     margin-top:5rem ; 
+
+/* login */
+.auth-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
