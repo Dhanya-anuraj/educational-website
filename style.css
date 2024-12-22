@@ -90,3 +90,11 @@ footer .social-icons i {
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
+/* cards */
+.card:hover {
+transform: scale(1.05);
+box-shadow: 0 8px 15px ;
+transition: all 0.3s ease-in-out;
+}
+
+
