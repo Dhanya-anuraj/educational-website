@@ -33,6 +33,7 @@
 .carousel-item img {
   max-height: 450px;
   object-fit: cover;
+  width: 100;
 }
 
 /* Adjust details section on smaller screens */
